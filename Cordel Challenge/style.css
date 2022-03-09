@@ -65,7 +65,7 @@ header p a:hover {
 
 .container {
     position: relative;
-    width: 100vw;
+    width: 92vw;
     height: 50vw;
     background-color: var(--white);
 
@@ -105,6 +105,24 @@ footer {
     color: var(--white);
     text-align: center;
     font-family: var(--footer-font);
+
+}
+
+
+#parallax-one {
+    background-image: url("images/background001.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-two {
+    background-image: url("images/background002.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
